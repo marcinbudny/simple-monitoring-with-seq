@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        },
+
+        "Serilog": "2.3.0",
+        "Serilog.Sinks.Seq": "3.0.1",
+        "Serilog.Sinks.ColoredConsole": "2.0.0"
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
